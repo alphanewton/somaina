@@ -221,7 +221,7 @@ const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
     <div className="relative">
       <h2 className="text-2xl font-bold mb-4 capitalize">{category}</h2>
       <div className="flex overflow-hidden">
-        {items.slice(currentIndex, currentIndex + 3).map((item, index) => (
+        {items.slice(currentIndex, currentIndex + 3).map((item) => (
           <div key={item.name} className="w-1/3 flex-shrink-0 px-2">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="relative h-48 mb-4">

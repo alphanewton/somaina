@@ -84,8 +84,8 @@ export function ContactPage() {
         <div className="flex flex-col items-center justify-center">
           <h2 className="text-2xl font-semibold mb-4">Support Us</h2>
           <p className="mb-4 text-center">
-            If you'd like to support our mission, you can make a donation using
-            the QR code below:
+            If you&apos;d like to support our mission, you can make a donation
+            using the QR code below:
           </p>
           <Image
             src="/qr-code.png"

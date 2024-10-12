@@ -25,22 +25,22 @@ export function AboutPage() {
           </p>
           <p className="mb-4">
             Today, we continue to handcraft each product with the same
-            dedication and care. Our philosophy is simple: use nature's best
-            ingredients to nurture your skin and hair, without any harmful
+            dedication and care. Our philosophy is simple: use nature&apos;s
+            best ingredients to nurture your skin and hair, without any harmful
             chemicals or artificial additives.
           </p>
           <p className="mb-4">
             We source our ingredients from local organic farms, supporting rural
             communities and ensuring the highest quality. Our packaging is
-            eco-friendly, and we're constantly working to reduce our
+            eco-friendly, and we&apos;re constantly working to reduce our
             environmental footprint.
           </p>
 
           <p>
-            When you choose समासना, you're not just choosing a beauty product.
-            You're choosing a lifestyle that values health, sustainability, and
-            natural beauty. Join us in our mission to make the world a little
-            more beautiful, one product at a time.
+            When you choose समासना, you&apos;re not just choosing a beauty
+            product. You&apos;re choosing a lifestyle that values health,
+            sustainability, and natural beauty. Join us in our mission to make
+            the world a little more beautiful, one product at a time.
           </p>
         </div>
       </div>
