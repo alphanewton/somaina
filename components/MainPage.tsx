@@ -9,7 +9,7 @@ export function MainPage() {
     <div className="container mx-auto px-4 flex-grow mt-10">
       {/* Hero Section */}
       <section className="text-center py-20">
-        <h1 className="text-[60px] font-bold mb-4">समासना</h1>
+        <h1 className="text-[60px] font-bold mb-4">समायना</h1>
         <div className="flex justify-center">
           <Image
             src="/mainpage.png"
@@ -113,9 +113,9 @@ export function MainPage() {
       {/* About Us Section */}
       <section className="py-16 bg-green-50 rounded-lg">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">About समासना</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">About समायना</h2>
           <p className="text-lg mb-6">
-            At समासना, we are committed to creating handmade, organic, and
+            At समायना, we are committed to creating handmade, organic, and
             natural beauty products. Our journey began with a simple idea: to
             provide high-quality, chemical-free toiletries that nourish your
             skin and respect the environment.
@@ -135,7 +135,7 @@ export function MainPage() {
       {/* Why Choose Us */}
       <section className="py-16">
         <h2 className="text-3xl font-bold mb-8 text-center">
-          Why Choose समासना
+          Why Choose समायना
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {[
@@ -173,11 +173,11 @@ export function MainPage() {
           {[
             {
               name: "Priya Narzary",
-              text: "I love how gentle समासना's products are on my sensitive skin. The lemon soap is my favorite!",
+              text: "I love how gentle समायना's products are on my sensitive skin. The lemon soap is my favorite!",
             },
             {
               name: "Rahul Brahma",
-              text: "The quality of these products is unmatched. I've switched all my toiletries to समासना.",
+              text: "The quality of these products is unmatched. I've switched all my toiletries to समायना.",
             },
             {
               name: "Anita Basumatary",
@@ -195,7 +195,7 @@ export function MainPage() {
       {/* Call to Action */}
       <section className="text-center py-20">
         <h2 className="text-3xl font-bold mb-8">
-          Experience the समासना Difference
+          Experience the समायना Difference
         </h2>
         <Link
           href="/products"

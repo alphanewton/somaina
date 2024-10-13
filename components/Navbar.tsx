@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-green-700 text-white p-4 fixed w-full top-0 z-20">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-3xl font-bold">
-          समासना
+          समायना
         </Link>
         <div className="hidden md:flex space-x-6">
           <Link
