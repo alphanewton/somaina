@@ -203,10 +203,10 @@ const products = {
 const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-  const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0); // New state
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
 
   const nextSlide = () => {
-    if (currentIndex + 3 < items.length) {
+    if (currentIndex + 1 < items.length) {
       setCurrentIndex(currentIndex + 1);
     }
   };
@@ -217,12 +217,20 @@ const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
     }
   };
 
+  const itemsToShow =
+    window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+
   return (
     <div className="relative">
       <h2 className="text-2xl font-bold mb-4 capitalize">{category}</h2>
       <div className="flex overflow-hidden">
-        {items.slice(currentIndex, currentIndex + 3).map((item) => (
-          <div key={item.name} className="w-1/3 flex-shrink-0 px-2">
+        {items.slice(currentIndex, currentIndex + itemsToShow).map((item) => (
+          <div
+            key={item.name}
+            className={`w-full ${
+              itemsToShow === 2 ? "md:w-1/2" : "lg:w-1/3"
+            } flex-shrink-0 px-2`}
+          >
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="relative h-48 mb-4">
                 <Image
@@ -237,7 +245,7 @@ const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
               <button
                 onClick={() => {
                   setSelectedProduct(item);
-                  setSelectedImageIndex(0); // Default to first image
+                  setSelectedImageIndex(0);
                 }}
                 className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition duration-300"
               >
@@ -255,7 +263,7 @@ const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
           <ChevronLeft />
         </button>
       )}
-      {currentIndex + 3 < items.length && (
+      {currentIndex + itemsToShow < items.length && (
         <button
           onClick={nextSlide}
           className="absolute top-1/2 -right-12 transform -translate-y-1/2 bg-green-600 text-white p-2 rounded-full"
@@ -279,7 +287,7 @@ const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
               <div>
                 <div className="relative h-64 mb-4">
                   <Image
-                    src={selectedProduct.images[selectedImageIndex]} // Display selected image
+                    src={selectedProduct.images[selectedImageIndex]}
                     alt={selectedProduct.name}
                     layout="fill"
                     objectFit="cover"
@@ -295,7 +303,7 @@ const ProductCarousel = ({ items, category }: ProductCarouselProps) => {
                           ? "border-2 border-green-600"
                           : ""
                       }`}
-                      onClick={() => setSelectedImageIndex(index)} // Change selected image
+                      onClick={() => setSelectedImageIndex(index)}
                     >
                       <Image
                         src={image}

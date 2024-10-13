@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function AboutPage() {
   return (
-    <div className="container mx-auto px-4 py-8 flex-grow mt-10">
+    <div className="container mx-auto px-4 py-8 flex-grow mt-10 min-h-full">
       <h1 className="text-3xl font-bold mb-8">About समायना</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
