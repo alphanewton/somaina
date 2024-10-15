@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="bg-green-700 text-white p-4 fixed w-full top-0 z-20"
+      className="bg-green-700 text-white p-4 fixed w-full top-0 z-20 flex "
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -59,7 +59,7 @@ const Navbar = () => {
               className="block p-2 hover:text-green-200 transition duration-300"
               onClick={() => setIsOpen(false)}
             >
-              About Us
+              About
             </Link>
           </motion.div>
           <motion.div
@@ -85,7 +85,7 @@ const Navbar = () => {
               className="block p-2 hover:text-green-200 transition duration-300"
               onClick={() => setIsOpen(false)}
             >
-              Contact Us
+              Contact
             </Link>
           </motion.div>
         </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
             href="/about"
             className="hover:text-green-200 transition duration-300"
           >
-            About Us
+            About
           </Link>
         </motion.div>
         <motion.div
@@ -138,7 +138,7 @@ const Navbar = () => {
             href="/contact"
             className="hover:text-green-200 transition duration-300"
           >
-            Contact Us
+            Contact
           </Link>
         </motion.div>
       </div>
