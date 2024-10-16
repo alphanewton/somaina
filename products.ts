@@ -76,6 +76,19 @@ export const products = {
         "Use this super-activated face rejuvenator as part of your nightly skincare routine for deep restoration and moisturization. Wake up to skin that feels refreshed, hydrated, and rejuvenated. Because it delivers intense moisture, deeply penetrating the skin to maintain hydrating levels, keeping it soft, smooth and plump, it targets dark spots and uneven skin tone, enhancing radiance for a luminous Complexion. It stimulates collagen production which improves skin elasticity and firmness and reduces the appearance of fine lines and wrinkles.",
     },
     {
+      name: "GLAS SKIN GEL CLEANSER",
+      images: [
+        "/gel-cleanser-1-1.jpeg",
+        "/gel-cleanser-1-2.jpeg",
+        "/gel-cleanser-1-3.jpeg",
+      ],
+      ingredients: "Gel cleanser ingredients include water and mild agents.",
+      usage:
+        "Wet your face and neck with water. Put a small amount of the gel onto your hands. Gently massage the gel into your skin in circular motions. Rinse thoroughly with water. Dry your face with a towel.",
+      benefits:
+        "This Gel cleanser can unclog pores and remove dirt and excess oil without stripping the skin of its natural oils. It is good for acne-prone skin, helping to clear away acne-causing bacteria and prevent future breakouts. It's a gentler alternative to other types of cleansers, like foaming washes. Often water-based and made with mild ingredients, it is a good choice for sensitive skin.",
+    },
+    {
       name: "SOMAINA DUFAOLU KUMKUMADI GEL SCRUB ",
       images: ["/scrub-1-1.jpeg", "/scrub-1-2.jpeg", "/scrub-1-3.jpeg"],
       ingredients:
@@ -84,6 +97,20 @@ export const products = {
         "After cleaning  face. You can use a facial cleanser in the morning and at night. Apply a dime-sized amount of the scrub to your palm. You can also spread the scrub evenly over both hands and rub them together gently for 1 to 2 minutes gently massage the scrub into your skin using circular motions. Rinse the scrub off thoroughly with water or wiped out with clean clothe.",
       benefits:
         "This scrub is a superfood for your skin including real exotic oils that help to remove facial tanning. This Scrub’s astringent properties help to clean the skin, remove dirt and grease and prepare it to retain moisture. This gently exfoliating face scrub gives you a radiant glow by controlling sebum production and thus preventing pimples and acne.",
+    },
+    {
+      name: "Glass Skin Moisturiser Cream",
+      images: [
+        "/moisturiser-1-1.jpeg",
+        "/moisturiser-1-2.jpeg",
+        "/moisturiser-1-3.jpeg",
+      ],
+      ingredients:
+        "Rice protein extract, Soy protein extract, Licorice extract, Silk peptide, Jojoba, Olive squalane, Stearic acid, Sodium Gluconate, Green Tea Extract, Glycerin, Vitamin E, Rice Extract, Rice bran, Cetyl alcohol, E Wax, Preservatives, AQUA.",
+      usage:
+        "Apply a small amount of the cream to clean skin, gently massaging in circular motions until absorbed. Suitable for daily use.",
+      benefits:
+        "It hydrates skin and replenishes the skin's natural barrier, giving skin a clearer, glowing, and glass-like appearance.",
     },
   ],
 
@@ -131,6 +158,26 @@ export const products = {
         "Wet skin with water. Apply soap generously to the body and massage to create a rich lather. Rinse off with warm or cold water.",
       benefits:
         "Antibacterial and antifungal properties relieve skin infections and provide a natural glow by washing away environmental impurities.",
+    },
+    {
+      name: "GLASS SKIN TONER",
+      images: ["/toner-1-1.jpeg", "/toner-1-2.jpeg", "/toner-1-3.jpeg"],
+      ingredients:
+        "Rice extract, Lavender Hydrosol, Rose Hydrosol, Aloe Hydrosol, Witch Hazel, Green Tea extract, Ginseng extract, Bamboo sap extract, Yuzu extract, Grapefruit extract, Niacinamide, Alantoin, Preservative, Aqua.",
+      usage:
+        "Wash your face or remove makeup, then apply toner with a cotton pad or your hands. You can soak a cotton pad with toner and gently wipe it over your skin in an upward motion or pat the toner into your skin with clean hands. Allow the toner to absorb into your skin for a few minutes before moving on to your next skincare step. You can use toner in the morning and at night. If you have sensitive skin, you can dilute the toner with water before applying it.",
+      benefits:
+        "This Toner provides deep hydration and a dewy glow, smooths and refines skin texture. It helps with pigmentation issues to create an even complexion and corrects the pH balance of your skin, which can be affected by pollution and harsh products.",
+    },
+    {
+      name: "Natural Copper Brass Cleaner",
+      images: ["/cleaner-1-1.jpeg"],
+      ingredients:
+        "Shikakai, Reeth, Arapoo, Tamarind, Salt, Charcoal, Lemon, Cider (No Sulphate, Parabeen, SLS, Artificial Fragrance Used)",
+      usage:
+        "Apply a small amount of the powder to a damp cloth or sponge. Gently rub the metal item. Rinse thoroughly with water",
+      benefits:
+        "It enables you to clean hard grease and stains out of your vessels making them appear like new. This powder has a pleasing fragrance that eliminates odour from the utensils without difficulty and that's mild and gentle for your hands. Its in-built detergent element leaves utensils and dishes glowing smooth.",
     },
   ],
 };

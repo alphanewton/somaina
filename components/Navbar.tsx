@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="bg-green-700 text-white p-4 fixed w-full top-0 z-20 flex "
+      className="bg-green-700 text-white p-4 fixed w-full top-0 z-20 block lg:flex"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
